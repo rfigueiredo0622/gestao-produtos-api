@@ -12,7 +12,6 @@ public abstract class FabricanteProdutoMapper {
 
     public static final FabricanteProdutoMapper INSTANCE = Mappers.getMapper(FabricanteProdutoMapper.class);
 
-
     @Mapping(target = "nomeFabricanteProduto", source = "nomeFabricanteProduto")
     public abstract FabricanteProdutoEntity mapDtoToEntity(final FabricanteProdutoDto source);
 

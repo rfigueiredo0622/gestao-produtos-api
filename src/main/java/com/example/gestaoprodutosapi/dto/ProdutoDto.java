@@ -17,6 +17,9 @@ public class ProdutoDto {
     @JsonProperty("nomeProduto")
     private String nome;
 
+    @JsonProperty("data")
+    private String data;
+
     @JsonProperty("qtdeEstoqueProduto")
     private Integer qtdeEstoque;
 

@@ -8,8 +8,10 @@ public class AvaliacaoProdutoDto {
 
     @JsonProperty("idAvaliacaoProduto")
     private String idAvaliacaoProduto;
+
     @JsonProperty("notaAvaliacaoProduto")
     private long notaAvaliacaoProduto;
+
     @JsonProperty("comentarioAvaliacaoProduto")
     private String comentarioAvaliacaoProduto;
 }
