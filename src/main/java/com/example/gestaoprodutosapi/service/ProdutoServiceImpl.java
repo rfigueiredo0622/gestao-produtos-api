@@ -68,6 +68,10 @@ public class ProdutoServiceImpl implements ProdutoService {
         repository.save(produto);
     }
 
+    public void incluirVarios(List<ProdutoEntity> produtos){
+        repository.insert(produtos);
+    }
+
     public void excluir(String idProduto) {
         repository.deleteById(idProduto);
     }

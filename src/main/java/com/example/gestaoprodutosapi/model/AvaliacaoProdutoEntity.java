@@ -11,6 +11,8 @@ public class AvaliacaoProdutoEntity {
 
     @Id
     private String idAvaliacaoProduto = UUID.randomUUID().toString();
+
     private long notaAvaliacaoProduto;
+
     private String comentarioAvaliacaoProduto;
 }

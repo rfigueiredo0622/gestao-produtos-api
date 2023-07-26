@@ -23,6 +23,7 @@ public abstract class ProdutoMapper {
     @Mapping(target = "id", source = "id")
     @Mapping(target = "nome", source = "nome")
     @Mapping(target = "qtdeEstoque", source = "qtdeEstoque")
+    @Mapping(target = "data", source = "data")
     @Mapping(target = "precoUnitario", source = "precoUnitario")
     @Mapping(target = "avaliacoes", source = "avaliacoes")
     @Mapping(target = "fabricante.nomeFabricanteProduto", source = "fabricante.nomeFabricanteProduto")
