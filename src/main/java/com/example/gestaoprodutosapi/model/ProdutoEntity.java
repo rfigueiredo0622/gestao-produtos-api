@@ -17,7 +17,7 @@ import java.util.UUID;
 public class ProdutoEntity {
 
     @Id
-    private String id;
+    private String id = UUID.randomUUID().toString();
     private String nome;
     private String data;
     private Integer qtdeEstoque;
